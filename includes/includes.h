@@ -3,3 +3,4 @@
 #include "sensor.h"
 #include "common.h"
 #include "line.h"
+#include "arc.h"

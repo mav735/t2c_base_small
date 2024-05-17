@@ -18,6 +18,14 @@ task main (){
     	readMinMax();
 	#endif
 	setDefaultLine();
-	lineFollowEncoder(20, 500);
+
+	Forward(20, 500);
+	stopMove(200);
+	TurnLeft(20, 90);
+	stopMove(200);
+	TurnRight(20, 90);
+	stopMove(200);
+	Backward(20, 500);
+
     fileClose(fileHandle);
 }
